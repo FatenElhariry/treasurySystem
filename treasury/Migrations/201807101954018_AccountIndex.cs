@@ -13,9 +13,8 @@ namespace treasury.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
-                        IsActive = c.Boolean(nullable: false),
-                        Description = c.String(),
-                        ParentId = c.Int(nullable: false),
+                        EnName = c.String(),
+                        ParentId = c.Int(),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("Dom.AccountIndex", t => t.ParentId)

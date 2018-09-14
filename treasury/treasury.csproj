@@ -199,13 +199,13 @@
     <Compile Include="Migrations\201807101954018_AccountIndex.Designer.cs">
       <DependentUpon>201807101954018_AccountIndex.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807101955158_AddAccountIndexData.cs" />
-    <Compile Include="Migrations\201807101955158_AddAccountIndexData.Designer.cs">
-      <DependentUpon>201807101955158_AddAccountIndexData.cs</DependentUpon>
+    <Compile Include="Migrations\201809142149458_AddDateToAccountIndex.cs" />
+    <Compile Include="Migrations\201809142149458_AddDateToAccountIndex.Designer.cs">
+      <DependentUpon>201809142149458_AddDateToAccountIndex.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807102010169_AddAccountIndexData1.cs" />
-    <Compile Include="Migrations\201807102010169_AddAccountIndexData1.Designer.cs">
-      <DependentUpon>201807102010169_AddAccountIndexData1.cs</DependentUpon>
+    <Compile Include="Migrations\201809142215257_UpdateIDINAccountIndex.cs" />
+    <Compile Include="Migrations\201809142215257_UpdateIDINAccountIndex.Designer.cs">
+      <DependentUpon>201809142215257_UpdateIDINAccountIndex.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountIndex.cs" />
@@ -227,6 +227,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile2.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -295,11 +298,11 @@
     <EmbeddedResource Include="Migrations\201807101954018_AccountIndex.resx">
       <DependentUpon>201807101954018_AccountIndex.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807101955158_AddAccountIndexData.resx">
-      <DependentUpon>201807101955158_AddAccountIndexData.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809142149458_AddDateToAccountIndex.resx">
+      <DependentUpon>201809142149458_AddDateToAccountIndex.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807102010169_AddAccountIndexData1.resx">
-      <DependentUpon>201807102010169_AddAccountIndexData1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809142215257_UpdateIDINAccountIndex.resx">
+      <DependentUpon>201809142215257_UpdateIDINAccountIndex.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,12 +7,11 @@ namespace treasury.Models
     public class AccountIndex
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
         public string Name { get; set; }
 
         public string EnName{ get; set; }
-        public bool IsActive { get; set; }
-        public string Description { get; set; }
 
         [ForeignKey("Childs")]
         public int? ParentId { get; set; }
